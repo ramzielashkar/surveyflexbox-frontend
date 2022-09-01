@@ -1,221 +1,155 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Survey using flexbox</title>
-    <link rel="stylesheet" href="styles/style.css">
-
-  </head>
-  <body>
-<section class="flex centered">
-
-<div class="main-container">
-
-  <div class="flex heading centered">
-    <h1>Follow Up Survey</h1>
-  </div>
-
-<div class="flex inputs">
-
-  <div class="column margin">
-    <label for="">When did you use our service?</label>
-    <input type="date" name="Date" value="" required class="f-inputs">
-  </div>
-
-  <div class="column margin">
-    <label for="">Name of product or service</label>
-    <input type="text" name="service" value="" required class="f-inputs">
-  </div>
-
-
-</div>
-
-<div class="flex column margin">
-  <p>Overall, how satisfied are you with the product or service? </p>
-</div>
-
-<div class="flex padding">
-
-  <div class="column margin">
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Very satisfied</label>
-    </div>
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Neutral</label>
-
-    </div>
-
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Very unsatisfied</label>
-
-    </div>
-
-  </div>
-  <div class="column margin">
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Satisfied</label>
-    </div>
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Unsatisfied</label>
-
-    </div>
-
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">N/A</label>
-
-    </div>
-  </div>
-
-</div>
-
-<div class="flex column margin">
-  <p>Did our product or service meet your expectations?</p>
-</div>
-
-<div class="flex padding">
-<div class="column margin">
-
-    <div class="flex margin yes-no">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Yes</label>
-</div>
-</div>
-
-<div class="column margin">
-
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">No</label>
-
-    </div>
-  </div>
-
-</div>
-
-
-<div class="flex column margin">
-  <p>Would you recommend this product or service to a friend?</p>
-</div>
-
-<div class="flex padding">
-<div class="column margin">
-
-    <div class="flex margin yes-no">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Yes</label>
-</div>
-</div>
-
-<div class="column margin">
-
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">No</label>
-
-    </div>
-  </div>
-
-</div>
-
-
-<div class="flex column margin">
-  <p>What aspect of the product or service were you most satisfied by?</p>
-</div>
-
-<div class="flex padding">
-
-  <div class="column margin">
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Quality</label>
-    </div>
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Customer service</label>
-
-    </div>
-
-
-  </div>
-  <div class="column margin">
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Price</label>
-    </div>
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Installation or first use experience
-</label>
-
-    </div>
-
-
-  </div>
-
-</div>
-
-
-
-<div class="flex column margin">
-  <p>What aspect of the product or service were you least satisfied by?</p>
-</div>
-
-<div class="flex padding">
-
-  <div class="column margin">
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Quality</label>
-    </div>
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Customer service</label>
-
-    </div>
-
-
-  </div>
-  <div class="column margin">
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Price</label>
-    </div>
-    <div class="flex margin">
-      <input type="radio" name="radio" value="">
-      <label for="" class="label">Installation or first use experience
-</label>
-
-    </div>
-
-
-  </div>
-
-</div>
-
-<div class="flex column margin">
-  <p>Additional comments:</p>
-
-</div>
-<div class="feedback">
-
-<textarea name="comments" rows="10" cols="60" placeholder="Type here..."></textarea>
-
-
-<div class="btn">
-  <button type="submit" name="button">Submit</button>
-
-</div>
-</div>
-
-
-</div>
-</section>
-
-  </body>
+   <head>
+      <meta charset="utf-8">
+      <title>Survey using flexbox</title>
+      <link rel="stylesheet" href="styles/style.css">
+   </head>
+   <body>
+      <section class="flex centered">
+         <div class="main-container">
+            <div class="flex heading centered">
+               <h1>Follow Up Survey</h1>
+            </div>
+            <div class="flex inputs">
+               <div class="column margin">
+                  <label for="">When did you use our service?</label>
+                  <input type="date" name="Date" value="" required class="f-inputs">
+               </div>
+               <div class="column margin">
+                  <label for="">Name of product or service</label>
+                  <input type="text" name="service" value="" required class="f-inputs">
+               </div>
+            </div>
+            <div class="flex column margin">
+               <p>Overall, how satisfied are you with the product or service? </p>
+            </div>
+            <div class="flex padding">
+               <div class="column margin">
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Very satisfied</label>
+                  </div>
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Neutral</label>
+                  </div>
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Very unsatisfied</label>
+                  </div>
+               </div>
+               <div class="column margin">
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Satisfied</label>
+                  </div>
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Unsatisfied</label>
+                  </div>
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">N/A</label>
+                  </div>
+               </div>
+            </div>
+            <div class="flex column margin">
+               <p>Did our product or service meet your expectations?</p>
+            </div>
+            <div class="flex padding">
+               <div class="column margin">
+                  <div class="flex margin yes-no">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Yes</label>
+                  </div>
+               </div>
+               <div class="column margin">
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">No</label>
+                  </div>
+               </div>
+            </div>
+            <div class="flex column margin">
+               <p>Would you recommend this product or service to a friend?</p>
+            </div>
+            <div class="flex padding">
+               <div class="column margin">
+                  <div class="flex margin yes-no">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Yes</label>
+                  </div>
+               </div>
+               <div class="column margin">
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">No</label>
+                  </div>
+               </div>
+            </div>
+            <div class="flex column margin">
+               <p>What aspect of the product or service were you most satisfied by?</p>
+            </div>
+            <div class="flex padding">
+               <div class="column margin">
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Quality</label>
+                  </div>
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Customer service</label>
+                  </div>
+               </div>
+               <div class="column margin">
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Price</label>
+                  </div>
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Installation or first use experience
+                     </label>
+                  </div>
+               </div>
+            </div>
+            <div class="flex column margin">
+               <p>What aspect of the product or service were you least satisfied by?</p>
+            </div>
+            <div class="flex padding">
+               <div class="column margin">
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Quality</label>
+                  </div>
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Customer service</label>
+                  </div>
+               </div>
+               <div class="column margin">
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Price</label>
+                  </div>
+                  <div class="flex margin">
+                     <input type="radio" name="radio" value="">
+                     <label for="" class="label">Installation or first use experience
+                     </label>
+                  </div>
+               </div>
+            </div>
+            <div class="flex column margin">
+               <p>Additional comments:</p>
+            </div>
+            <div class="feedback">
+               <textarea name="comments" rows="10" cols="60" placeholder="Type here..."></textarea>
+               <div class="btn">
+                  <button type="submit" name="button">Submit</button>
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
 </html>
