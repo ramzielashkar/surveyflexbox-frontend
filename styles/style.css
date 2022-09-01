@@ -98,7 +98,6 @@ button{
   margin-bottom: 50px;
 }
 
-.padding{
+.wrap{
   flex-wrap: wrap;
-
 }
